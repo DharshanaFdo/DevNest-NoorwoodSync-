@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Poppins';
+background: beige;
+}
+
+section .top{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: beige
+}
+
+
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+}
+
+header .hi{
+    display: flex;
+    position: relative;
+/* background-color: #d4af37; */
+border-radius: 100%;
+
+    align-content: center;
+  
+}
+
+header .hi h1{
+
+
+    font-size: 30px;
+    align-content: center;
+}
+.hi{
+color: black;
+font-family: "Kanit", sans-serif;
+font-weight: 100;
+font-style: normal;
+}
+
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    margin-left: 40px;
+    font-size: 18PX;
+    text-decoration: none;
+    transition: 0.1s;
+}
+header ul li a:hover{
+    color: #017143;
+    font-weight: bold;
+}
+
+img .logo{
+    width: 80px;  /* Set the width to 200 pixels */
+    height: 100px; /* Set the height to 100 pixels */
+}
+
+
+.content{
+    margin-top: 80px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+.content .textBox h2{
+    color: #333;
+    font-size: 3.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span{
+    color: #017143;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p{
+    color:#333;
+}
+
+.btnshop{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #017143;
+    color: #ffff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.btnshop:hover{
+    background: #01834d;
+    color: beige;
+}
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #017143;
+    clip-path: circle(600px at right 700px);
+}
+
+section{
+    position: relative;
+    /* width: 100%; */
+    /* min-height: 100vh; */
+    padding: 80px 80px 20px 120px;
+    /* display: flex; */
+    justify-content: space-between;
+    align-items: left;
+    
+    
+}
+
+.topic
+{
+    color: #0b422b;
+    margin: 0px 30px 10px 0px;
+    justify-content: space-between;
+}
+
+.topic i:hover{
+    color: #017143;
+    font-weight: bold;
+}
+
+.info
+{
+    margin: 10px 0px 20px 0px;
+    color: #017143;
+}
+
+.content-table
+{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 600px;
+    align-items: center;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0);
+}
+
+.content-table thead tr
+{
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+.content-table th, .content-table td
+{
+    padding: 12px 15px;
+}
+
+.content-table tbody tr
+{
+    border-bottom: 1px solid #dddddd;
+}
+
+.content-table tbody tr:nth-of-type(even)
+{
+    background-color: #f3f3f3a6;
+}
+
+.content-table tbody tr:last-of-type
+{
+    border-bottom: 2px solid #009879;
+}
+
+.content-table tbody tr:active-row
+{
+    font-weight: bold;
+    color: #009879;
+}
+
+footer{
+    background-color: #f5f5dc;
+}
+
+footer .social{
+    display: flex;
+    justify-content: center;
+}
+
+footer .social a{
+   font-size: 40px;
+   padding: 10px;
+}
